@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1268cb99-dc39-4a6c-a8e5-7e901636709e" name="Default Changelist" comment="" />
+    <list default="true" id="1268cb99-dc39-4a6c-a8e5-7e901636709e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.expo-shared/assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/assets/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Detail/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Incidents/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Incidents/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f17c3b-5b46-42bf-9a70-f277e4b7d399.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f17c3b-5b46-42bf-9a70-f277e4b7d399.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/IncidentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/IncidentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/db.sqlite" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +74,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZcxTqYlxg5mHvKtQsbmqgyLH2U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,7 +93,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mobile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -73,6 +104,15 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lupus\Documents\SemanaOmniStack11\aulas\backend\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,6 +126,8 @@
       <updated>1585152194089</updated>
       <workItem from="1585152197851" duration="4811000" />
       <workItem from="1585247551597" duration="14751000" />
+      <workItem from="1585328791237" duration="7720000" />
+      <workItem from="1585420868408" duration="2251000" />
     </task>
     <servers />
   </component>
@@ -93,18 +135,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585255396725">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585329015048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585255396725" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585329015048" />
     <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585254355237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585254355237" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585273145350">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585347151041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585273145350" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585347151041" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1585360992572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992572" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1585360992571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992571" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1585360992571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992571" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1585360992571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992571" />
     <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1585253837697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
