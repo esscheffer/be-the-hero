@@ -3,12 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1268cb99-dc39-4a6c-a8e5-7e901636709e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/test.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/generateUniqueId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/ong.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/generateUniqueId.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knexfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/knexfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/OngController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/OngController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/connection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +97,7 @@
       <recent name="C:\Users\Lupus\Documents\SemanaOmniStack11\aulas\backend\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -98,6 +105,17 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.test" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,7 +131,7 @@
       <workItem from="1585247551597" duration="14751000" />
       <workItem from="1585328791237" duration="7720000" />
       <workItem from="1585420868408" duration="6828000" />
-      <workItem from="1585482994042" duration="206000" />
+      <workItem from="1585482994042" duration="7368000" />
     </task>
     <servers />
   </component>
@@ -124,10 +142,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585329015048">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585483987299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585329015048" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585483987299" />
     <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585254355237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,22 +154,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585347151041" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1585446957052">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1585493330586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1585446957052">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585493330586" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1585493330586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1585446957052">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585493330586" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1585493330586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1585446957052">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585493330586" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1585493330586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585493330586" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1585483197739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,9 +178,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585253837697" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585442757046">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585487927731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585442757046" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585487927731" />
   </component>
 </project>
