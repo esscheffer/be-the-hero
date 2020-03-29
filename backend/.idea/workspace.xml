@@ -3,31 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1268cb99-dc39-4a6c-a8e5-7e901636709e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/.expo-shared/assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/assets/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Detail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Detail/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Incidents/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Incidents/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/src/services/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mobile/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f17c3b-5b46-42bf-9a70-f277e4b7d399.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f17c3b-5b46-42bf-9a70-f277e4b7d399.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/IncidentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/IncidentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +63,16 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZcxTqYlxg5mHvKtQsbmqgyLH2U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -127,12 +112,16 @@
       <workItem from="1585152197851" duration="4811000" />
       <workItem from="1585247551597" duration="14751000" />
       <workItem from="1585328791237" duration="7720000" />
-      <workItem from="1585420868408" duration="2251000" />
+      <workItem from="1585420868408" duration="6828000" />
+      <workItem from="1585482994042" duration="206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585329015048">
@@ -147,29 +136,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585347151041" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1585360992572">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1585446957052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992572" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1585360992571">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1585446957052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992571" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1585360992571">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1585446957052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992571" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1585360992571">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1585446957052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585360992571" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585446957052" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1585483197739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585483197739" />
     <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1585253837697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585253837697" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585268098482">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585442757046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585268098482" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585442757046" />
   </component>
 </project>
